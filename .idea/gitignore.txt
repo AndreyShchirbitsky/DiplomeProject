@@ -1,0 +1,16 @@
+
+
+/target/
+
+# Eclipse STS artifacts
+**/.settings/**
+**/.classpath
+**/.project
+
+# IntelliJ project files
+.idea
+*.iml
+
+# Mac OS files
+.DS_Store
+
