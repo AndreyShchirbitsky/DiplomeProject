@@ -20,17 +20,12 @@ public class ProducktsPageService {
     }
 
     public void addingItemToBasket(){
+        loginPageService.login();
         mainPage.clickOnWomenProducktsPageButton();
         producktsPage.clickToAddToCartButton()
                 .clickToContinueShoppingButton()
                 .clickToCartButton();
     }
-
-    public String getNameOfItemInTheBasket() {
-
-        return basketPage.nameOfItemInTheCart();
-    }
-
     public String getExpectedPriceOfItem() {
         loginPageService.login();
         mainPage.clickOnWomenProducktsPageButton();
@@ -39,14 +34,15 @@ public class ProducktsPageService {
         return producktsPage.getPriceOfItem();
     }
 
+    public String getNameOfItemInTheBasket() {
+
+        return basketPage.nameOfItemInTheCart();
+    }
+
+
+
     public void clickToBasketButton() {
         producktsPage.clickToCartButton();
     }
 
-    public String getDescriptionAboutItem(){
-        loginPageService.login();
-        mainPage.clickOnWomenProducktsPageButton();
-        producktsPage.clickOnMoreInformationAboutItemButton();
-        return producktsPage.getTextOfDescriptionOfItem();
-    }
 }

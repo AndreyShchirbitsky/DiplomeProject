@@ -15,7 +15,7 @@ public class CatalogPageTest extends BaseTest {
         catalogPageService = new CatalogPageService();
     }
 
-    @Test
+    @Test(description = "comparison of the name of the product with the desired")
     public void catalogTest(){
         catalogPageService.loginn();
         String actualrequest = catalogPageService.getTitleOfCatalogPage();

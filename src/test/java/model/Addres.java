@@ -1,6 +1,11 @@
 package model;
 
+import lombok.Data;
+
+@Data
 public class Addres {
+    public static final String ADDRESS_PAGE_URL = "http://prestashop.qatestlab.com.ua/ru/address";
+    public static final String ADDRESSES_PAGE_URL = "http://prestashop.qatestlab.com.ua/ru/addresses";
 
     private String firstName;
     private String lastName;
@@ -12,6 +17,7 @@ public class Addres {
     private String country;
     private String state ;
     private String addressTitle;
+
 
     public Addres(String firstName, String lastName, String company, String address, String zip, String city, String homePhone, String country, String state,String addressTitle) {
         this.firstName = firstName;

@@ -12,6 +12,7 @@ public class DriverSingleTon {
     private DriverSingleTon() {
     }
 
+
     public static WebDriver getDriver() {
         if (null == driver) {
             switch (System.getProperty("browser", "crome")) {

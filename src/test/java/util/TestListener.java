@@ -1,5 +1,9 @@
 package util;
 
+import driver.DriverSingleTon;
+import org.openqa.selenium.NoSuchSessionException;
+import org.openqa.selenium.WebDriver;
+import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestResult;
 
@@ -31,5 +35,20 @@ public class TestListener implements ITestListener {
 
     private long getExecutionTime(ITestResult iTestResult) {
         return TimeUnit.MILLISECONDS.toSeconds(iTestResult.getEndMillis() - iTestResult.getStartMillis());
+    }
+
+
+    private byte[] takeScreenshot(ITestResult iTestResult) {
+        ITestContext context = iTestResult.getTestContext();
+        try {
+            WebDriver driver = DriverSingleTon.getDriver();
+            if (driver != null) {
+                return util.AllureUtils.takeScreenshot(driver);
+            } else {
+                return new byte[]{};
+            }
+        } catch (NoSuchSessionException | IllegalStateException ex) {
+            return new byte[]{};
+        }
     }
 }

@@ -10,10 +10,13 @@ model\User.class
 util\Retry.class
 test\BaseTest.class
 model\Addres.class
+util\AllureUtils.class
 test\AddresPageTest.class
 details\FillFields.class
 service\LoginPageService.class
 driver\DriverSingleTon.class
+util\Waiter.class
+driver\WebDriverFactory.class
 page\LoginPage.class
 details\Сhoose.class
 service\BasketPageService.class

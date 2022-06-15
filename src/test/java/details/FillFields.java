@@ -7,11 +7,11 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import page.BasePage;
 
 public class FillFields extends BasePage {
-
+    private static final String INPUT_XPATH = "//input[@id='%s']";
     private final String wrapper;
 
     WebDriverWait wait = new WebDriverWait(DriverSingleTon.getDriver(), 15);
-    private static final String INPUT_XPATH = "//input[@id='%s']";
+
 
     public FillFields(String wrapper) {
         this.wrapper = wrapper;

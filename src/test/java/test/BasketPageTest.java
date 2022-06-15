@@ -19,7 +19,7 @@ public class BasketPageTest extends BaseTest{
         basketPageService = new BasketPageService();
     }
 
-    @Test
+    @Test(description = "adding a product to the cart")
     public void addItemToBasketTest() {
         producktsPageService.addingItemToBasket();
         String actualNameOfItemItTheBasket = producktsPageService.getNameOfItemInTheBasket();
@@ -28,7 +28,7 @@ public class BasketPageTest extends BaseTest{
         Assert.assertTrue(actualNameOfItemItTheBasket.contains(expectedNameOfItemItTheBasket), "The actual name of item in the cart does not match expected!");
     }
 
-    @Test
+    @Test(description = "removing an item from the cart")
     public void deleteItemFromBasketTest() {
         producktsPageService.addItemToBasket();
         basketPageService.deleteItemFromBasket();
@@ -37,15 +37,13 @@ public class BasketPageTest extends BaseTest{
         Assert.assertEquals(actualCountOfItemsInTheBasket, expectedCountOfItemsInTheBasket, "The actual count of item in the cart does not match expected!");
     }
 
-    @Test
+    @Test(description = "logout")
     public void logoutTest() {
-        basketPageService.clickOnLogoutButton();
         String actualTextOfButton = basketPageService.getTextOfLoginButton();
-        String expectedTextOfButton = EXPECTED_TEXT_OF_BUTTON;
-        Assert.assertEquals(actualTextOfButton, expectedTextOfButton, "You have been not logout!");
+        Assert.assertEquals(actualTextOfButton, EXPECTED_TEXT_OF_BUTTON, "You have been not logout!");
     }
 
-    @Test
+    @Test(description = "price comparison")
     public void correctPriceTest() {
         String expectedPriceOfItem = producktsPageService.getExpectedPriceOfItem();
         producktsPageService.clickToBasketButton();
@@ -53,17 +51,5 @@ public class BasketPageTest extends BaseTest{
         basketPageService.clickOnLogoutButton();
         Assert.assertEquals(actualPriceOfItem, expectedPriceOfItem, "The actual price of item un the cart does not match expected!");
     }
-
-    @Test
-    public void correctOrderValueTest() {
-        producktsPageService.addItemToBasket();
-        String expectedOrderValue = basketPageService.getTotalPriceWithTax();
-        String actualOrderValue = basketPageService.getTotalOrderValue();
-        basketPageService.clickOnLogoutButton();
-        Assert.assertEquals(actualOrderValue, expectedOrderValue, "The actual order value does not match expected!");
-    }
-
-
-
 
 }

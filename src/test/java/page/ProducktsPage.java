@@ -1,17 +1,16 @@
 package page;
 
 import driver.DriverSingleTon;
+import io.qameta.allure.Step;
 import lombok.extern.log4j.Log4j2;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import util.Waiter;
 
 @Log4j2
 public class ProducktsPage extends BasePage{
 
-    WebDriverWait wait = new WebDriverWait(DriverSingleTon.getDriver(), 15);
 
     @FindBy(xpath = "//div[@class='button-container']//a[@data-id-product='1']")
     private WebElement addToCartButton;
@@ -37,6 +36,8 @@ public class ProducktsPage extends BasePage{
     @FindBy(xpath = "//div[@id='short_description_content']//p")
     private WebElement descriptionOfItem;
 
+
+    @Step("Clicking on the add to the cart button")
     public ProducktsPage clickToAddToCartButton() {
         log.info("Clicking on the add to the cart button");
         Actions actions = new Actions(driver);
@@ -44,31 +45,23 @@ public class ProducktsPage extends BasePage{
         return this;
     }
 
+    @Step("Clicking on the continue to shopping button")
     public ProducktsPage clickToContinueShoppingButton() {
         log.info("Clicking on the continue to shopping button");
-        wait.until(ExpectedConditions.visibilityOf(continueShoppingButton)).click();
+        Waiter.waitVisibilityOfElement(driver, continueShoppingButton);
         continueShoppingButton.click();
         return this;
     }
 
+    @Step("Clicking on the cart button")
     public void clickToCartButton() {
         log.info("Clicking on the cart button");
         cartButton.click();
     }
 
+    @Step("Getting price of item")
     public String getPriceOfItem() {
         log.info("Getting price of item");
         return priceOfItem.getText();
-    }
-
-    public void clickOnMoreInformationAboutItemButton() {
-        log.info("Clicking on the more information about item button");
-        Actions actions = new Actions(driver);
-        actions.moveToElement(object).moveToElement(moreInformationAboutItemButton).click().build().perform();
-    }
-
-    public String getTextOfDescriptionOfItem() {
-        log.info("Getting description of item");
-        return descriptionOfItem.getText();
     }
 }

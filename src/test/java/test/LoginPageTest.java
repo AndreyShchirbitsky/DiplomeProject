@@ -15,16 +15,16 @@ LoginPageService loginPageService;
         loginPageService  = new LoginPageService();
     }
 
-    @Test
+    @Test(description = "Login with correct user info")
     public void loginTest(){
         MainPage mainPage = loginPageService.login();
         String actualTextMainPage = mainPage.getTextOfMainPageMessage();
         Assert.assertEquals(actualTextMainPage, EXPECTED_TEXT_OF_NAME_OF_MY_ACCOUNT_PAGE, "the actual text does not match expected");
     }
 
-    @Test
+    @Test(description = "Login with incorrect user info")
     public void loginInvalidTest(){
-        MainPage mainPage = loginPageService.login();
+        MainPage mainPage = loginPageService.loginn();
         String actualTextMainPage = mainPage.getInvaludTextOfPageMessage();
         Assert.assertEquals(actualTextMainPage, INVALID_TEXT_MESSEG,"Login failed");
     }

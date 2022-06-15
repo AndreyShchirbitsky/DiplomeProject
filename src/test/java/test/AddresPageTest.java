@@ -16,7 +16,7 @@ public class AddresPageTest extends BaseTest{
         addresPageService = new AddresPageService();
     }
 
-    @Test
+    @Test(description = "creating an address")
     public void createAddressTest() {
         addresPageService.createAddress();
         String actualTitleOfAddress = addresPageService.getTitleOfAddressPage();
@@ -24,14 +24,14 @@ public class AddresPageTest extends BaseTest{
         Assert.assertTrue(actualTitleOfAddress.contains(expectedTitleOfAddress), "The actual title of the address does not match expected!");
     }
 
-    @Test
+    @Test(description = "delete address")
     public void deleteAddressTest() {
         addresPageService.deleteAddress();
         String actualMessageOfPageAfterDeleteAddress = addresPageService.getTextOfPageAfterDeleteAddress();
         String expectedMessageOfPageAfterDeleteAddress = EXPECTED_MESSAGE_AFTER_DELETE_ADDRESS;
         Assert.assertTrue(actualMessageOfPageAfterDeleteAddress.contains(expectedMessageOfPageAfterDeleteAddress), "The actual message of the page does not match expected!");
     }
-    @Test
+    @Test(description = "address creation error")
     public void errorWhileCreatingAddresTest(){
         addresPageService.createErrorAddress();
         String addressCreationErrorMessage = addresPageService.getTextOfErrorAddress();

@@ -2,25 +2,7 @@ package model;
 
 public class User {
 
-    private String email;
-    private String password;
-
-    public User() {
-    }
-
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
-    public String getPassword() {
-        return password;
-    }
-
-    public void setPassword(String password) {
-        this.password = password;
-    }
+    public static final String EMAIL_NOT_TRUE = "q_q_1313@mail.ru";
+    public static final String EMAIL = "t_t_1313@mail.ru";
+    public static final String PASSWORD = "qwerty123";
 }

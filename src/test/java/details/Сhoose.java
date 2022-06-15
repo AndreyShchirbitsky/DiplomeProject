@@ -9,9 +9,10 @@ import page.BasePage;
 
 public class Сhoose extends BasePage {
 
-    private final String wrapper;
+
     private static final String DROP_DOWN_XPATH = "//div[@id='%s']";
     private static final String SELECT_OPTION_XPATH = "//select[@class='form-control']//option[contains(text(),'%s')]";
+    private final String wrapper;
 
     WebDriverWait wait = new WebDriverWait(DriverSingleTon.getDriver(), 15);
 
