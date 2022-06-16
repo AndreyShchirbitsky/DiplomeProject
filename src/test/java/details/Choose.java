@@ -24,3 +24,4 @@ public class Choose extends BasePage {
         driver.findElement(By.xpath(String.format(SELECT_OPTION_XPATH, option))).click();
     }
 }
+

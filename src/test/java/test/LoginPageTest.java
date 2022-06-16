@@ -19,7 +19,8 @@ LoginPageService loginPageService;
     public void loginTest(){
         MainPage mainPage = loginPageService.login();
         String actualTextMainPage = mainPage.getTextOfMainPageMessage();
-        Assert.assertEquals(actualTextMainPage, EXPECTED_TEXT_OF_NAME_OF_MY_ACCOUNT_PAGE, "the actual text does not match expected");
+        String expectedTextOfNameOfMyAccountPage = "Welcome to your account. Here you can manage all of your personal information and orders.";
+        Assert.assertEquals(actualTextMainPage, expectedTextOfNameOfMyAccountPage, "the actual text does not match expected");
     }
 
     @Test(description = "Login with incorrect user info")

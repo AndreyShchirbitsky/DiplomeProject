@@ -4,11 +4,112 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09899037-1f40-427e-a767-090a776bb37e" name="Changes" comment="add Projects2">
+    <list default="true" id="09899037-1f40-427e-a767-090a776bb37e" name="Changes" comment="add Projects4">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/AddresPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/AddresPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/MainPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/details/Choose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/details/Choose.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/model/Addres.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/model/Addres.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/LoginPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testng-smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testng-smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/0b388789-47a8-43bc-858b-5eddb8b6d95f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/16b62e0e-b871-4941-9dab-a220a158a6c6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/17c0c782-3f5a-427a-a86d-9e994ccfa09d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/21f7fb7c-acd7-4e8e-89a3-e9d195ddad3a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/311c27f1-26d0-44ca-8a97-8b6d0d4b3a7a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3c22736e-3b94-4220-9cfe-08c3458331b3-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3e839bfd-cc37-44df-82ef-7f5a4d6557cf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6bc558e5-23e0-4b37-a3f9-167029a85f35-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/706c771f-2473-4c6f-ac93-d37ba09c7e5d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7b721568-d4ba-4c7a-b554-d1d99a6fd98f-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9ee11c8b-d0f7-4c8b-84a1-a24e0a96f210-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ace7a04f-8b02-4603-930d-fecc293f3aa0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ae34116d-c4ac-4b34-908c-716fa932a0ae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/be21944f-0cfa-46e9-bc8f-c16223bf14ae-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/c17cd2c7-75d0-46c1-be3c-3bd08f61ac2c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cd2bc2ae-7cc8-4b29-9e7b-445ce5579f62-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/daa2044d-ba2a-412b-8505-6db66c5d29e3-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ea66dcd9-b283-4290-b2c6-2b890f6205f5-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/executor.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f8a6d1de-ee3f-4cb1-863f-5a1787ef30b4-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test suite/ LoginPageTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test suite/ LoginPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test suite/AddresPageTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test suite/AddresPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test suite/BasketPageTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test suite/BasketPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test suite/CatalogPageTest.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test suite/CatalogPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test suite/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.AddresPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.BasketPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.CatalogPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-test.LoginPageTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/ LoginPageTest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/AddresPageTest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/BasketPageTest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/CatalogPageTest.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/Test suite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-failed.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/allure.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/details/FillFields.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/details/Сhoose.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/driver/DriverSingleTon.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/log4j2-test.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/model/Addres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/AddresPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/BasePage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/BasketPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/CatalogPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/LoginPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/MainPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/ProducktsPage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/AddresPageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/BasketPageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/CatalogPageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/LoginPageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/ProducktsPageService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/AddresPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/BaseTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/BasketPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/CatalogPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/LoginPageTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng-smoke.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/AllureUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Constant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Retry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/TestListener.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/util/Waiter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tests.log" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +342,21 @@
       <option name="project" value="LOCAL" />
       <updated>1655402767172</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add Projects3">
+      <created>1655404412447</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1655404412447</updated>
+    </task>
+    <task id="LOCAL-00007" summary="add Projects4">
+      <created>1655411430658</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1655411430658</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -261,7 +376,9 @@
     <MESSAGE value="add Projects" />
     <MESSAGE value="add Projects1" />
     <MESSAGE value="add Projects2" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Projects2" />
+    <MESSAGE value="add Projects3" />
+    <MESSAGE value="add Projects4" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Projects4" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DiplomeProject$CartPageTest_addItemToCartTest.ic" NAME="CartPageTest.addItemToCartTest Coverage Results" MODIFIED="1654886182390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

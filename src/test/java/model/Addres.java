@@ -1,21 +1,18 @@
 package model;
 
-import lombok.Data;
-
-@Data
 public class Addres {
     public static final String ADDRESS_PAGE_URL = "http://prestashop.qatestlab.com.ua/ru/address";
     public static final String ADDRESSES_PAGE_URL = "http://prestashop.qatestlab.com.ua/ru/addresses";
 
-    private String firstName;
-    private String lastName;
-    private String company;
-    private String address;
-    private String zip;
-    private String city;
-    private String homePhone;
-    private String country;
-    private String state ;
+    private final String firstName;
+    private final String lastName;
+    private final String company;
+    private final String address;
+    private final String zip;
+    private final String city;
+    private final String homePhone;
+    private final String country;
+    private final String state ;
     private String addressTitle;
 
 
