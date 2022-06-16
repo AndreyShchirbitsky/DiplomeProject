@@ -1,7 +1,7 @@
 package page;
 
+import details.Choose;
 import details.FillFields;
-import details.Сhoose;
 import driver.DriverSingleTon;
 import io.qameta.allure.Step;
 import lombok.extern.log4j.Log4j2;
@@ -87,14 +87,14 @@ public class AddresPage extends BasePage{
     @Step("Enter a country")
     public AddresPage countryInput(Addres addres) {
         log.info("Enter a country");
-        new Сhoose("uniform-id_country").selectValue(addres.getCountry());
+        new Choose("uniform-id_country").selectValue(addres.getCountry());
         return this;
     }
 
     @Step("Enter a state")
     public AddresPage stateInput(Addres addres) {
         log.info("Enter a state");
-        new Сhoose("uniform-id_state").selectValue(addres.getState());
+        new Choose("uniform-id_state").selectValue(addres.getState());
         return this;
     }
 
@@ -118,7 +118,7 @@ public class AddresPage extends BasePage{
         return this;
     }
 
-    @Step("Get message of addres page")
+    @Step("Get message of address page")
     public String getTextOfAddres(){
         log.info("Get message of address page");
         wait.until(ExpectedConditions.visibilityOf(messageOfAddress));

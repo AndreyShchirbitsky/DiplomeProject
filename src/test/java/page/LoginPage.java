@@ -28,25 +28,25 @@ public class LoginPage extends BasePage{
         return this;
     }
 
-    @Step("Enter email addres")
-    public LoginPage enterEmail(String emailAddres){
-        log.info("Enter email addres");
+    @Step("Enter email address")
+    public LoginPage enterEmail(String emailAddress){
+        log.info("Enter email address");
         email.clear();
-        email.sendKeys(emailAddres);
+        email.sendKeys(emailAddress);
         return this;
     }
 
-    @Step("Enter password addres")
+    @Step("Enter password address")
     public LoginPage enterPassword(String passwords){
-        log.info("Enter password addres");
+        log.info("Enter password address");
         password.clear();
         password.sendKeys(passwords);
         return this;
     }
 
-    @Step("Clic on the login button")
+    @Step("Click on the login button")
     public void clicSignInButton(){
-        log.info("Clic on the login button");
+        log.info("Click on the login button");
         loginButton.click();
     }
 

@@ -6,9 +6,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import page.BasePage;
 
-
-public class Сhoose extends BasePage {
-
+public class Choose extends BasePage {
 
     private static final String DROP_DOWN_XPATH = "//div[@id='%s']";
     private static final String SELECT_OPTION_XPATH = "//select[@class='form-control']//option[contains(text(),'%s')]";
@@ -16,7 +14,7 @@ public class Сhoose extends BasePage {
 
     WebDriverWait wait = new WebDriverWait(DriverSingleTon.getDriver(), 15);
 
-    public Сhoose(String label) {
+    public Choose(String label) {
         this.wrapper = label;
     }
 

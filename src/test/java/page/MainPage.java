@@ -32,9 +32,9 @@ public class MainPage extends BasePage {
         return titlMainPage.getText();
     }
 
-    @Step("Get invalud text of main page")
+    @Step("Get invalid text of main page")
     public String getInvaludTextOfPageMessage() {
-        log.info("Get invalud text of main page");
+        log.info("Get invalid text of main page");
         return invalidMesseg.getText();
     }
 
