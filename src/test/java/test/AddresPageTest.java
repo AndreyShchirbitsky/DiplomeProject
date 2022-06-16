@@ -20,8 +20,7 @@ public class AddresPageTest extends BaseTest{
     public void createAddressTest() {
         addresPageService.createAddress();
         String actualTitleOfAddress = addresPageService.getTitleOfAddressPage();
-        String expectedTitleOfAddress = ADDRESS_TITLE;
-        Assert.assertTrue(actualTitleOfAddress.contains(expectedTitleOfAddress), "The actual title of the address does not match expected!");
+        Assert.assertTrue(actualTitleOfAddress.contains(ADDRESS_TITLE), "The actual title of the address does not match expected!");
     }
 
     @Test(description = "delete address")

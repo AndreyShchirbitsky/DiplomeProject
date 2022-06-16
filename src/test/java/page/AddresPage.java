@@ -120,7 +120,7 @@ public class AddresPage extends BasePage{
 
     @Step("Get message of addres page")
     public String getTextOfAddres(){
-        log.info("Get message of addres page");
+        log.info("Get message of address page");
         wait.until(ExpectedConditions.visibilityOf(messageOfAddress));
         return messageOfAddress.getText();
     }

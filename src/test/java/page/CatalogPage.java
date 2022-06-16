@@ -12,9 +12,9 @@ public class CatalogPage extends BasePage{
     @FindBy(xpath = "//a[@class='product-name'][@title='Faded Short Sleeve T-shirts']")
     private WebElement nameProduckt;
 
-    @Step("Getting text from the name produkt")
+    @Step("Getting text from the name product")
     public String getTexts() {
-        log.info("Getting text from the name produkt");
+        log.info("Getting text from the name product");
         return nameProduckt.getText();
     }
 

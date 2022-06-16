@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="1,405.837" tests="10" errors="0" skipped="0" failures="3">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="surefire.suiteXmlFiles" value="src\test\resources\testng-smoke.xml"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\Женек\.cache\selenium\chromedriver\win32\102.0.5005.61\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1251"/>
+    <property name="java.class.path" value="C:\Users\Женек\IdeaProjects\DiplomeProject\target\test-classes;C:\Users\Женек\IdeaProjects\DiplomeProject\target\classes;C:\Users\Женек\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Женек\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Женек\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Женек\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Женек\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Женек\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Женек\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Женек\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Женек\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Женек\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Женек\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Женек\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Женек\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\Женек\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Женек\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\Женек\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Женек\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Женек\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Женек\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Женек\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Женек\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Женек\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Женек\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Женек\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Женек\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Женек\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Женек\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Женек\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Женек\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure-testng\2.7.0\allure-testng-2.7.0.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.7.0\allure-descriptions-javadoc-2.7.0.jar;C:\Users\Женек\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure-java-commons\2.7.0\allure-java-commons-2.7.0.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure2-model-api\1.0.0\allure2-model-api-1.0.0.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure2-model-pojo\1.0.0\allure2-model-pojo-1.0.0.jar;C:\Users\Женек\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure2-model-jackson\1.0.0\allure2-model-jackson-1.0.0.jar;C:\Users\Женек\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;C:\Users\Женек\.m2\repository\org\aspectj\aspectjrt\1.9.1\aspectjrt-1.9.1.jar;C:\Users\Женек\.m2\repository\org\jooq\joor-java-8\0.9.9\joor-java-8-0.9.9.jar;C:\Users\Женек\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Женек\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\Женек\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Женек\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.13.2\jackson-dataformat-yaml-2.13.2.jar;C:\Users\Женек\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2\jackson-databind-2.13.2.jar;C:\Users\Женек\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\Женек\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\Женек\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\Женек\.m2\repository\org\slf4j\slf4j-reload4j\1.7.35\slf4j-reload4j-1.7.35.jar;C:\Users\Женек\.m2\repository\ch\qos\reload4j\reload4j\1.2.18.3\reload4j-1.2.18.3.jar;C:\Users\Женек\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Женек\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Женек\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Женек\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Женек\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Женек\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Женек\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Женек\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Женек\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Женек\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Женек\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Женек\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Женек\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Женек\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Женек\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Женек\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Женек\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Женек\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Moscow"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 8.1"/>
+    <property name="user.country" value="RU"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Женек\AppData\Local\Temp\surefire7694634069331826647\surefirebooter1346513978634601146.jar C:\Users\Женек\AppData\Local\Temp\surefire7694634069331826647 2022-06-15T18-09-04_693-jvmRun1 surefire9113308573977845183tmp surefire_07103472062929910062tmp"/>
+    <property name="surefire.test.class.path" value="C:\Users\Женек\IdeaProjects\DiplomeProject\target\test-classes;C:\Users\Женек\IdeaProjects\DiplomeProject\target\classes;C:\Users\Женек\.m2\repository\org\testng\testng\7.0.0\testng-7.0.0.jar;C:\Users\Женек\.m2\repository\com\beust\jcommander\1.72\jcommander-1.72.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\Женек\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\Женек\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Женек\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Женек\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Женек\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Женек\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Женек\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Женек\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Женек\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Женек\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\Женек\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\Женек\.m2\repository\io\github\bonigarcia\webdrivermanager\5.1.0\webdrivermanager-5.1.0.jar;C:\Users\Женек\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\Женек\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\Женек\.m2\repository\com\github\docker-java\docker-java\3.2.13\docker-java-3.2.13.jar;C:\Users\Женек\.m2\repository\com\github\docker-java\docker-java-core\3.2.13\docker-java-core-3.2.13.jar;C:\Users\Женек\.m2\repository\com\github\docker-java\docker-java-api\3.2.13\docker-java-api-3.2.13.jar;C:\Users\Женек\.m2\repository\org\apache\commons\commons-compress\1.21\commons-compress-1.21.jar;C:\Users\Женек\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\Женек\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\Женек\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Женек\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.13\docker-java-transport-httpclient5-3.2.13.jar;C:\Users\Женек\.m2\repository\com\github\docker-java\docker-java-transport\3.2.13\docker-java-transport-3.2.13.jar;C:\Users\Женек\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\Женек\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\Женек\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\Женек\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Женек\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure-testng\2.7.0\allure-testng-2.7.0.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure-descriptions-javadoc\2.7.0\allure-descriptions-javadoc-2.7.0.jar;C:\Users\Женек\.m2\repository\commons-io\commons-io\2.6\commons-io-2.6.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure-java-commons\2.7.0\allure-java-commons-2.7.0.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure2-model-api\1.0.0\allure2-model-api-1.0.0.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure2-model-pojo\1.0.0\allure2-model-pojo-1.0.0.jar;C:\Users\Женек\.m2\repository\org\apache\tika\tika-core\1.14\tika-core-1.14.jar;C:\Users\Женек\.m2\repository\io\qameta\allure\allure2-model-jackson\1.0.0\allure2-model-jackson-1.0.0.jar;C:\Users\Женек\.m2\repository\com\fasterxml\jackson\module\jackson-module-jaxb-annotations\2.7.0\jackson-module-jaxb-annotations-2.7.0.jar;C:\Users\Женек\.m2\repository\org\aspectj\aspectjrt\1.9.1\aspectjrt-1.9.1.jar;C:\Users\Женек\.m2\repository\org\jooq\joor-java-8\0.9.9\joor-java-8-0.9.9.jar;C:\Users\Женек\.m2\repository\org\aspectj\aspectjweaver\1.9.6\aspectjweaver-1.9.6.jar;C:\Users\Женек\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.2\log4j-core-2.17.2.jar;C:\Users\Женек\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\Женек\.m2\repository\com\fasterxml\jackson\dataformat\jackson-dataformat-yaml\2.13.2\jackson-dataformat-yaml-2.13.2.jar;C:\Users\Женек\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.2\jackson-databind-2.13.2.jar;C:\Users\Женек\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.2\jackson-annotations-2.13.2.jar;C:\Users\Женек\.m2\repository\org\yaml\snakeyaml\1.30\snakeyaml-1.30.jar;C:\Users\Женек\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.2\jackson-core-2.13.2.jar;C:\Users\Женек\.m2\repository\org\slf4j\slf4j-reload4j\1.7.35\slf4j-reload4j-1.7.35.jar;C:\Users\Женек\.m2\repository\ch\qos\reload4j\reload4j\1.2.18.3\reload4j-1.2.18.3.jar;C:\Users\Женек\.m2\repository\io\rest-assured\rest-assured\4.4.0\rest-assured-4.4.0.jar;C:\Users\Женек\.m2\repository\org\codehaus\groovy\groovy\3.0.8\groovy-3.0.8.jar;C:\Users\Женек\.m2\repository\org\codehaus\groovy\groovy-xml\3.0.8\groovy-xml-3.0.8.jar;C:\Users\Женек\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\Женек\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\Женек\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Женек\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\Женек\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\Женек\.m2\repository\org\hamcrest\hamcrest\2.1\hamcrest-2.1.jar;C:\Users\Женек\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\Женек\.m2\repository\io\rest-assured\json-path\4.4.0\json-path-4.4.0.jar;C:\Users\Женек\.m2\repository\org\codehaus\groovy\groovy-json\3.0.8\groovy-json-3.0.8.jar;C:\Users\Женек\.m2\repository\io\rest-assured\rest-assured-common\4.4.0\rest-assured-common-4.4.0.jar;C:\Users\Женек\.m2\repository\io\rest-assured\xml-path\4.4.0\xml-path-4.4.0.jar;C:\Users\Женек\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\2.3.3\jakarta.xml.bind-api-2.3.3.jar;C:\Users\Женек\.m2\repository\jakarta\activation\jakarta.activation-api\1.2.2\jakarta.activation-api-1.2.2.jar;C:\Users\Женек\.m2\repository\com\sun\xml\bind\jaxb-impl\2.3.3\jaxb-impl-2.3.3.jar;C:\Users\Женек\.m2\repository\org\projectlombok\lombok\1.18.22\lombok-1.18.22.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Женек"/>
+    <property name="user.language" value="ru"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_321\jre"/>
+    <property name="basedir" value="C:\Users\Женек\IdeaProjects\DiplomeProject"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\Женек\AppData\Local\Temp\surefire7694634069331826647\surefirebooter1346513978634601146.jar;C:\Users\Женек\.m2\repository/org/aspectj/aspectjweaver/1.9.6/aspectjweaver-1.9.6.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_321\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_321\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_321-b07"/>
+    <property name="user.name" value="Женек"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="6.3"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1251"/>
+    <property name="browser" value="chrome"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\Женек\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\4231~1\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.1"/>
+    <property name="java.version" value="1.8.0_321"/>
+    <property name="user.dir" value="C:\Users\Женек\IdeaProjects\DiplomeProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_321\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-17.0.1\bin;C:\Program Files\Git\cmd;C:\Users\Женек\AppData\Local\Programs\Microsoft VS Code\bin;F:\IntelliJ IDEA Community Edition 2021.1.2\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="25.321-b07"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_321\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="loginInvalidTest" classname="test.LoginPageTest" time="90.212">
+    <system-out><![CDATA[======================================== STARTING TEST loginInvalidTest ========================================
+======================================== STARTING TEST loginInvalidTest ========================================
+======================================== STARTING TEST loginInvalidTest ========================================
+======================================== STARTING TEST loginInvalidTest ========================================
+2022-06-15 18:09:51.201 INFO [TestNG-test= LoginPageTest-1] [page.LoginPage] - Opening login page
+2022-06-15 18:10:40.587 INFO [TestNG-test= LoginPageTest-1] [page.LoginPage] - Enter email addres
+2022-06-15 18:10:42.756 INFO [TestNG-test= LoginPageTest-1] [page.LoginPage] - Enter password addres
+2022-06-15 18:10:42.938 INFO [TestNG-test= LoginPageTest-1] [page.LoginPage] - Clic on the login button
+2022-06-15 18:11:21.126 INFO [TestNG-test= LoginPageTest-1] [page.MainPage] - Get invalud text of main page
+======================================== FINISHED TEST loginInvalidTest Duration: 90s ========================================
+]]></system-out>
+    <system-err><![CDATA[log4j:WARN No appenders could be found for logger (io.github.bonigarcia.wdm.cache.ResolutionCache).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 35109
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн 15, 2022 6:09:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="loginTest" classname="test.LoginPageTest" time="127.381">
+    <system-out><![CDATA[======================================== FINISHED TEST loginInvalidTest Duration: 90s ========================================
+======================================== FINISHED TEST loginInvalidTest Duration: 90s ========================================
+======================================== FINISHED TEST loginInvalidTest Duration: 90s ========================================
+======================================== STARTING TEST loginTest ========================================
+======================================== STARTING TEST loginTest ========================================
+======================================== STARTING TEST loginTest ========================================
+======================================== STARTING TEST loginTest ========================================
+2022-06-15 18:11:21.720 INFO [TestNG-test= LoginPageTest-1] [page.LoginPage] - Opening login page
+2022-06-15 18:12:53.293 INFO [TestNG-test= LoginPageTest-1] [page.LoginPage] - Enter email addres
+2022-06-15 18:12:53.404 INFO [TestNG-test= LoginPageTest-1] [page.LoginPage] - Enter password addres
+2022-06-15 18:12:53.564 INFO [TestNG-test= LoginPageTest-1] [page.LoginPage] - Clic on the login button
+2022-06-15 18:13:32.818 INFO [TestNG-test= LoginPageTest-1] [page.MainPage] - Get message of main page
+======================================== FINISHED TEST loginTest Duration: 131s ========================================
+]]></system-out>
+  </testcase>
+  <testcase name="createAddressTest" classname="test.AddresPageTest" time="184.768">
+    <system-out><![CDATA[======================================== FINISHED TEST loginTest Duration: 131s ========================================
+======================================== FINISHED TEST loginTest Duration: 131s ========================================
+======================================== FINISHED TEST loginTest Duration: 131s ========================================
+======================================== STARTING TEST createAddressTest ========================================
+======================================== STARTING TEST createAddressTest ========================================
+======================================== STARTING TEST createAddressTest ========================================
+2022-06-15 18:13:51.810 INFO [TestNG-test=AddresPageTest-1] [page.LoginPage] - Opening login page
+2022-06-15 18:14:38.384 INFO [TestNG-test=AddresPageTest-1] [page.LoginPage] - Enter email addres
+2022-06-15 18:14:38.502 INFO [TestNG-test=AddresPageTest-1] [page.LoginPage] - Enter password addres
+2022-06-15 18:14:38.623 INFO [TestNG-test=AddresPageTest-1] [page.LoginPage] - Clic on the login button
+2022-06-15 18:15:37.993 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Open address page by URL
+2022-06-15 18:16:23.945 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Enter a first name
+2022-06-15 18:16:24.295 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Enter a last name
+2022-06-15 18:16:24.376 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Enter a company
+2022-06-15 18:16:24.463 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Enter a address
+2022-06-15 18:16:24.562 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Enter a zip
+2022-06-15 18:16:24.636 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Enter a city
+2022-06-15 18:16:24.711 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Enter a home phone
+2022-06-15 18:16:24.781 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Enter a country
+2022-06-15 18:16:25.098 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Enter a state
+2022-06-15 18:16:25.484 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Entering a title of address
+2022-06-15 18:16:25.644 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Clicking on the save button
+2022-06-15 18:16:59.028 INFO [TestNG-test=AddresPageTest-1] [page.AddresPage] - Get message of addres page
+======================================== FINISHED TEST createAddressTest Duration: 187s ========================================
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 12219
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн 15, 2022 6:13:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="deleteAddressTest" classname="test.AddresPageTest" time="34.975">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;email&apos;]&quot;}&#10;  (Session info: chrome=102.0.5005.115)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HOME-PC&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\4231~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 53db4225ca7240817afc2dde36d6602f&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;email&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HOME-PC', ip: '192.168.0.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\4231~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 53db4225ca7240817afc2dde36d6602f
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at test.AddresPageTest.deleteAddressTest(AddresPageTest.java:29)
+]]></failure>
+    <system-out><![CDATA[======================================== FINISHED TEST createAddressTest Duration: 187s ========================================
+======================================== FINISHED TEST createAddressTest Duration: 187s ========================================
+======================================== STARTING TEST deleteAddressTest ========================================
+======================================== STARTING TEST deleteAddressTest ========================================
+======================================== STARTING TEST deleteAddressTest ========================================
+2022-06-15 18:16:59.111 INFO [TestNG-test=AddresPageTest-1] [page.LoginPage] - Opening login page
+2022-06-15 18:17:33.479 INFO [TestNG-test=AddresPageTest-1] [page.LoginPage] - Enter email addres
+======================================== FAILED TEST deleteAddressTest Duration: 34s ========================================
+]]></system-out>
+  </testcase>
+  <testcase name="errorWhileCreatingAddresTest" classname="test.AddresPageTest" time="34.761">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;email&apos;]&quot;}&#10;  (Session info: chrome=102.0.5005.115)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HOME-PC&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\4231~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 53db4225ca7240817afc2dde36d6602f&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;email&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HOME-PC', ip: '192.168.0.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\4231~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:49692}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 53db4225ca7240817afc2dde36d6602f
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at test.AddresPageTest.errorWhileCreatingAddresTest(AddresPageTest.java:36)
+]]></failure>
+    <system-out><![CDATA[======================================== FAILED TEST deleteAddressTest Duration: 34s ========================================
+======================================== FAILED TEST deleteAddressTest Duration: 34s ========================================
+======================================== STARTING TEST errorWhileCreatingAddresTest ========================================
+======================================== STARTING TEST errorWhileCreatingAddresTest ========================================
+======================================== STARTING TEST errorWhileCreatingAddresTest ========================================
+2022-06-15 18:17:33.617 INFO [TestNG-test=AddresPageTest-1] [page.LoginPage] - Opening login page
+2022-06-15 18:18:08.817 INFO [TestNG-test=AddresPageTest-1] [page.LoginPage] - Enter email addres
+======================================== FAILED TEST errorWhileCreatingAddresTest Duration: 35s ========================================
+]]></system-out>
+  </testcase>
+  <testcase name="catalogTest" classname="test.CatalogPageTest" time="126.648">
+    <system-out><![CDATA[======================================== FAILED TEST errorWhileCreatingAddresTest Duration: 35s ========================================
+======================================== FAILED TEST errorWhileCreatingAddresTest Duration: 35s ========================================
+======================================== STARTING TEST catalogTest ========================================
+======================================== STARTING TEST catalogTest ========================================
+2022-06-15 18:18:12.832 INFO [TestNG-test=CatalogPageTest-1] [page.LoginPage] - Opening login page
+2022-06-15 18:19:03.722 INFO [TestNG-test=CatalogPageTest-1] [page.LoginPage] - Enter email addres
+2022-06-15 18:19:03.830 INFO [TestNG-test=CatalogPageTest-1] [page.LoginPage] - Enter password addres
+2022-06-15 18:19:03.938 INFO [TestNG-test=CatalogPageTest-1] [page.LoginPage] - Clic on the login button
+2022-06-15 18:19:40.333 INFO [TestNG-test=CatalogPageTest-1] [page.MainPage] - Enter request
+2022-06-15 18:19:40.448 INFO [TestNG-test=CatalogPageTest-1] [page.MainPage] - Submit an inquiry
+2022-06-15 18:20:21.686 INFO [TestNG-test=CatalogPageTest-1] [page.CatalogPage] - Getting text from the name produkt
+======================================== FINISHED TEST catalogTest Duration: 128s ========================================
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 38026
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн 15, 2022 6:18:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="addItemToBasketTest" classname="test.BasketPageTest" time="239.214">
+    <system-out><![CDATA[======================================== FINISHED TEST catalogTest Duration: 128s ========================================
+======================================== STARTING TEST addItemToBasketTest ========================================
+2022-06-15 18:20:25.848 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Opening login page
+2022-06-15 18:21:15.313 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Enter email addres
+2022-06-15 18:21:15.420 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Enter password addres
+2022-06-15 18:21:15.532 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Clic on the login button
+2022-06-15 18:22:14.853 INFO [TestNG-test=BasketPageTest-1] [page.MainPage] - Clicking on the women assortment button
+2022-06-15 18:23:11.197 INFO [TestNG-test=BasketPageTest-1] [page.ProducktsPage] - Clicking on the add to the cart button
+2022-06-15 18:23:11.776 INFO [TestNG-test=BasketPageTest-1] [page.ProducktsPage] - Clicking on the continue to shopping button
+2022-06-15 18:23:14.051 INFO [TestNG-test=BasketPageTest-1] [page.ProducktsPage] - Clicking on the cart button
+2022-06-15 18:23:54.745 INFO [TestNG-test=BasketPageTest-1] [page.BasketPage] - Getting name of item in the cart
+2022-06-15 18:23:54.814 INFO [TestNG-test=BasketPageTest-1] [page.BasketPage] - Clicking on the logout button
+======================================== FINISHED TEST addItemToBasketTest Duration: 241s ========================================
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 102.0.5005.61 (0e59bcc00cc4985ce39ad31c150065f159d95ad3-refs/branch-heads/5005@{#819}) on port 20306
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+июн 15, 2022 6:20:25 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="correctPriceTest" classname="test.BasketPageTest" time="199.665">
+    <system-out><![CDATA[======================================== STARTING TEST correctPriceTest ========================================
+2022-06-15 18:24:27.565 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Opening login page
+2022-06-15 18:25:03.584 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Enter email addres
+2022-06-15 18:25:03.693 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Enter password addres
+2022-06-15 18:25:03.804 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Clic on the login button
+2022-06-15 18:25:39.498 INFO [TestNG-test=BasketPageTest-1] [page.MainPage] - Clicking on the women assortment button
+2022-06-15 18:26:31.196 INFO [TestNG-test=BasketPageTest-1] [page.ProducktsPage] - Clicking on the add to the cart button
+2022-06-15 18:26:31.463 INFO [TestNG-test=BasketPageTest-1] [page.ProducktsPage] - Clicking on the continue to shopping button
+2022-06-15 18:26:33.698 INFO [TestNG-test=BasketPageTest-1] [page.ProducktsPage] - Getting price of item
+2022-06-15 18:26:33.725 INFO [TestNG-test=BasketPageTest-1] [page.ProducktsPage] - Clicking on the cart button
+2022-06-15 18:27:10.923 INFO [TestNG-test=BasketPageTest-1] [page.BasketPage] - Getting price of item
+2022-06-15 18:27:10.955 INFO [TestNG-test=BasketPageTest-1] [page.BasketPage] - Clicking on the logout button
+======================================== FINISHED TEST correctPriceTest Duration: 199s ========================================
+]]></system-out>
+  </testcase>
+  <testcase name="deleteItemFromBasketTest" classname="test.BasketPageTest" time="153.93">
+    <system-out><![CDATA[======================================== STARTING TEST deleteItemFromBasketTest ========================================
+2022-06-15 18:27:47.207 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Opening login page
+2022-06-15 18:28:19.737 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Enter email addres
+2022-06-15 18:28:19.851 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Enter password addres
+2022-06-15 18:28:19.957 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Clic on the login button
+2022-06-15 18:28:55.847 INFO [TestNG-test=BasketPageTest-1] [page.MainPage] - Clicking on the women assortment button
+2022-06-15 18:29:41.903 INFO [TestNG-test=BasketPageTest-1] [page.ProducktsPage] - Clicking on the add to the cart button
+2022-06-15 18:29:42.176 INFO [TestNG-test=BasketPageTest-1] [page.ProducktsPage] - Clicking on the continue to shopping button
+2022-06-15 18:29:43.869 INFO [TestNG-test=BasketPageTest-1] [page.ProducktsPage] - Clicking on the cart button
+2022-06-15 18:30:21.095 INFO [TestNG-test=BasketPageTest-1] [page.BasketPage] - Clicking on the delete item button
+2022-06-15 18:30:21.149 INFO [TestNG-test=BasketPageTest-1] [page.BasketPage] - Getting count of items in the basket
+======================================== FINISHED TEST deleteItemFromBasketTest Duration: 153s ========================================
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="test.BasketPageTest" time="92.022">
+    <failure message="no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//input[@id=&apos;email&apos;]&quot;}&#10;  (Session info: chrome=102.0.5005.115)&#10;For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html&#10;Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;&#10;System info: host: &apos;HOME-PC&apos;, ip: &apos;192.168.0.105&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_321&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\4231~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Session ID: 6b558475e530bd3f3f258b45d690977c&#10;*** Element info: {Using=xpath, value=//input[@id=&apos;email&apos;]}" type="org.openqa.selenium.NoSuchElementException"><![CDATA[org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@id='email']"}
+  (Session info: chrome=102.0.5005.115)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'HOME-PC', ip: '192.168.0.105', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_321'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 102.0.5005.115, chrome: {chromedriverVersion: 102.0.5005.61 (0e59bcc00cc4..., userDataDir: C:\Users\4231~1\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:50090}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 6b558475e530bd3f3f258b45d690977c
+*** Element info: {Using=xpath, value=//input[@id='email']}
+	at test.BasketPageTest.logoutTest(BasketPageTest.java:42)
+]]></failure>
+    <system-out><![CDATA[======================================== STARTING TEST logoutTest ========================================
+2022-06-15 18:30:21.220 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Opening login page
+2022-06-15 18:31:53.020 INFO [TestNG-test=BasketPageTest-1] [page.LoginPage] - Enter email addres
+======================================== FAILED TEST logoutTest Duration: 91s ========================================
+]]></system-out>
+  </testcase>
+</testsuite>

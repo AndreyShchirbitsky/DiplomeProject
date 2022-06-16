@@ -4,7 +4,43 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="09899037-1f40-427e-a767-090a776bb37e" name="Changes" comment="add Project" />
+    <list default="true" id="09899037-1f40-427e-a767-090a776bb37e" name="Changes" comment="add Projects1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/page/AddresPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/AddresPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/AddresPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AddresPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/Retry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/util/TestListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/util/TestListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/009dbe29-0850-443e-9bc2-2b116f811357-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/02c3ed11-b339-42c6-9433-0bc4574eec56-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/1a205cf5-b995-41f8-9119-e155ebd72b4c-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/392c3b28-cf2c-466c-8f75-725fbd3b71ed-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3bc52549-908b-4c13-996f-41502955b27d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/3bd8386a-1e15-4fdf-a0ca-4baa1030a804-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/4df60e58-3468-4ca3-af08-1da672661fd6-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5b3eddaa-1090-4a1d-835c-b31ca233732a-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/5b5cde35-ff67-43d7-857f-f05d4156d6bd-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/67ce2649-3650-4a4b-90d8-bc9712e4d7bf-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/6dda7488-b365-4ab4-b542-94251f462ada-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/79402c62-9b71-4324-8b3a-6b581f68ce35-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/7f2108a3-d925-40e6-9612-b5cc84d6b574-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/91b14e83-b81f-424f-906c-02f16c8cfb21-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/944f0ab3-ef68-4d1f-b832-32979883cdfb-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/9f7690d4-a2a9-4eda-b086-d0b4f16df3a6-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/a6801518-6db6-4a5a-8f42-288967be4028-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/baaad0a8-065a-47e5-a0ad-296df6b8148e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ccc9dead-9e74-4a98-841e-edc4cec4ec98-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/cd60ebbf-8a49-4a89-a0b0-55285e7c75f0-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/e139902b-ab37-476f-9e1e-df4989bf3d75-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ec38af35-a6ad-436d-83fb-963d6526dd62-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/ed91a81a-5b10-48dc-82ce-ee94d839d35b-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/allure-results/f6008f25-b225-4fd4-81bc-179676201e59-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test suite/ LoginPageTest.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test suite/ LoginPageTest.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/Test suite/ LoginPageTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/Test suite/ LoginPageTest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/testng-smoke.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/testng-smoke.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tests.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/tests.log" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,7 +94,7 @@
       <recent name="C:\Users\Женек\IdeaProjects\DiplomeProject\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.LoginPageTest.loginTest">
+  <component name="RunManager" selected="Maven.DiplomeProject [-Dbrowser=chrome...]">
     <configuration name="DiplomeProject [-Dbrowser=chrome...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -222,7 +258,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655304671678</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add Projects">
+      <created>1655305080315</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1655305080315</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -239,7 +282,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add DriverSingleton" />
     <MESSAGE value="add Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Project" />
+    <MESSAGE value="add Projects" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Projects" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DiplomeProject$CartPageTest_addItemToCartTest.ic" NAME="CartPageTest.addItemToCartTest Coverage Results" MODIFIED="1654886182390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
