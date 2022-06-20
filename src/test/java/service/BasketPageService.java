@@ -29,4 +29,5 @@ public class BasketPageService extends BasePage {
         return basketPage.getPriceOfItem();
     }
 
+
 }

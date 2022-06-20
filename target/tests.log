@@ -1,1 +1,17 @@
 2022-06-21 00:08:07.365 INFO [TestNG-test= LoginPageTest-1] [page.LoginPage] - Opening login page
+2022-06-21 02:17:45.557 INFO [main] [page.LoginPage] - Opening login page
+2022-06-21 02:18:29.749 INFO [main] [page.LoginPage] - Enter email address
+2022-06-21 02:18:30.407 INFO [main] [page.LoginPage] - Enter password address
+2022-06-21 02:18:30.518 INFO [main] [page.LoginPage] - Click on the login button
+2022-06-21 02:19:23.082 INFO [main] [page.AddresPage] - Open address page by URL
+2022-06-21 02:20:36.533 INFO [main] [page.AddresPage] - Enter a first name
+2022-06-21 02:20:38.474 INFO [main] [page.AddresPage] - Enter a last name
+2022-06-21 02:20:39.219 INFO [main] [page.AddresPage] - Enter a company
+2022-06-21 02:20:39.319 INFO [main] [page.AddresPage] - Enter a address
+2022-06-21 02:20:43.760 INFO [main] [page.AddresPage] - Enter a zip
+2022-06-21 02:20:44.991 INFO [main] [page.AddresPage] - Enter a city
+2022-06-21 02:20:45.210 INFO [main] [page.AddresPage] - Enter a home phone
+2022-06-21 02:20:45.489 INFO [main] [page.AddresPage] - Choosing a country
+2022-06-21 02:20:52.071 INFO [main] [page.AddresPage] - Choosing a state
+2022-06-21 02:20:53.696 INFO [main] [page.AddresPage] - Clicking on the save button
+2022-06-21 02:21:47.343 INFO [main] [page.AddresPage] - Getting text from the address creation error checks

@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d092d49-4bd1-4612-a7a3-727f1d712ed7" name="Changes" comment="add last1">
+    <list default="true" id="7d092d49-4bd1-4612-a7a3-727f1d712ed7" name="Changes" comment="add last2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/page/AddresPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/page/AddresPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/service/AddresPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/AddresPageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/service/BasketPageService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/service/BasketPageService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/AddresPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AddresPageTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/AddresPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/AddresPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/page/ProducktsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/page/ProducktsPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/service/AddresPageService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/service/AddresPageService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/AddresPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/AddresPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/tests.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/tests.log" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +68,7 @@
       <recent name="C:\Users\Женек\IdeaProjects\DiplomeProject\src\test\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Maven.DiplomeProject [-Dbrowser=chrome...]">
+  <component name="RunManager" selected="TestNG.AddresPageTest.errorWhileCreatingAddresTest">
     <configuration name="DiplomeProject [-Dbrowser=chrome...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -108,7 +114,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BasketPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AddresPageTest.errorWhileCreatingAddresTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="DiplomeProject" />
       <extension name="coverage">
         <pattern>
@@ -117,8 +123,9 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.BasketPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="test.AddresPageTest" />
+      <option name="METHOD_NAME" value="errorWhileCreatingAddresTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -181,18 +188,18 @@
     <list>
       <item itemvalue="Maven.DiplomeProject [-Dbrowser=chrome...]" />
       <item itemvalue="TestNG.BasketPageTest.logoutTest" />
-      <item itemvalue="TestNG.BasketPageTest" />
       <item itemvalue="TestNG.AddresPageTest" />
       <item itemvalue="TestNG.LoginPageTest" />
       <item itemvalue="TestNG.LoginPageTest.loginTest" />
+      <item itemvalue="TestNG.AddresPageTest.errorWhileCreatingAddresTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AddresPageTest.errorWhileCreatingAddresTest" />
         <item itemvalue="TestNG.LoginPageTest.loginTest" />
         <item itemvalue="TestNG.LoginPageTest" />
         <item itemvalue="TestNG.AddresPageTest" />
         <item itemvalue="TestNG.BasketPageTest.logoutTest" />
-        <item itemvalue="TestNG.BasketPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -282,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1655762237042</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add last2">
+      <created>1655764098851</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1655764098864</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -306,7 +320,8 @@
     <MESSAGE value="add 143" />
     <MESSAGE value="add last" />
     <MESSAGE value="add last1" />
-    <option name="LAST_COMMIT_MESSAGE" value="add last1" />
+    <MESSAGE value="add last2" />
+    <option name="LAST_COMMIT_MESSAGE" value="add last2" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DiplomeProject$CartPageTest_addItemToCartTest.ic" NAME="CartPageTest.addItemToCartTest Coverage Results" MODIFIED="1654886182390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">

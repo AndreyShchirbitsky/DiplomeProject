@@ -34,8 +34,7 @@ public class AddresPageTest extends BaseTest{
     public void errorWhileCreatingAddresTest(){
         addresPageService.createErrorAddress();
         String addressCreationErrorMessage = addresPageService.getTextOfErrorAddress();
-        String expectedMessageOfCreationErrorMessage = EXPECTED_MESSAGE_AFTER_CREATE_ERROR_ADDRESS;
-        Assert.assertTrue(addressCreationErrorMessage.contains(expectedMessageOfCreationErrorMessage), "The actual message of the page does not match expected!");
+        Assert.assertTrue(addressCreationErrorMessage.contains(EXPECTED_MESSAGE_AFTER_CREATE_ERROR_ADDRESS), "The actual message of the page does not match expected!");
     }
 
 }

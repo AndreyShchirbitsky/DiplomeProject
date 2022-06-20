@@ -12,6 +12,7 @@ import static util.Constant.*;
 
 
 public class AddresPageService extends BasePage {
+   public static final String ADDRESS_PAGE_URLS = "http://prestashop.qatestlab.com.ua/ru/address";
 
     AddresPage addresPage = new AddresPage();
     LoginPageService loginPageService = new LoginPageService();
@@ -45,7 +46,7 @@ public class AddresPageService extends BasePage {
     public void createErrorAddress() {
         loginPageService.login();
         Addres addres = new Addres(FIRST_NAME, LAST_NAME, COMPANY, ADDRESS, ZIP, CITY, HOME_PHONE, COUNTRY, STATE,ADDRES_TITLE_MESSEG);
-        addresPage.openPage(ADDRESS_PAGE_URL)
+        addresPage.openPage(ADDRESS_PAGE_URLS)
                 .firstNameInput(addres)
                 .lastNameInput(addres)
                 .companyInput(addres)
