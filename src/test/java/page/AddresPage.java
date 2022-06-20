@@ -94,9 +94,10 @@ public class AddresPage extends BasePage{
     }
 
     @Step("Enter a state")
-    public AddresPage stateInput(Addres addres) {
-        log.info("Enter a state");
-        new Choose("uniform-id_state").selectValue(addres.getState());
+    public AddresPage stateInput() {
+        log.info("Choosing a state");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='id_state']//parent::div"))).click();
+        driver.findElement(By.xpath("//select[@id='id_state']//option[@value='321']")).click();
         return this;
     }
 

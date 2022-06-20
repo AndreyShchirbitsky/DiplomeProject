@@ -18,7 +18,7 @@ public class ProducktsPage extends BasePage{
     @FindBy(xpath = "//div[@class='right-block']")
     private WebElement element;
 
-    @FindBy(xpath = "//span[@title='Продолжить покупки']")
+    @FindBy(xpath = "//span[@class='continue btn btn-default button exclusive-medium'")
     private WebElement continueShoppingButton;
 
     @FindBy(xpath = "//a[@title='Посмотреть корзину']")

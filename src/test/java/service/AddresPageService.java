@@ -30,7 +30,7 @@ public class AddresPageService extends BasePage {
                 .cityInput(addres)
                 .homePhoneInput(addres)
                 .countryInput()
-                .stateInput(addres)
+                .stateInput()
                 .addressTitleInput(addres)
                 .clickSaveButton();
 
@@ -54,7 +54,7 @@ public class AddresPageService extends BasePage {
                 .cityInput(addres)
                 .homePhoneInput(addres)
                 .countryInput()
-                .stateInput(addres)
+                .stateInput()
                 .clickSaveButton();
 
     }
