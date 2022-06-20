@@ -3,7 +3,7 @@ pipeline {
 
    tools {
       // Install the Maven version configured as "M3" and add it to the path.
-      maven "3.8.6"
+      maven "m3"
       jdk "java"
    }
     triggers {
@@ -25,7 +25,7 @@ pipeline {
             //sh "mvn clean test"
 
             // To run Maven on a Windows agent, use
-            bat "mvn -Dmaven.test.failure.ignore=true -Dbrowser=chrome -Dsurefire.suiteXmlFiles=src/test/resources/testng-smoke.xml clean test
+            bat "mvn -Dmaven.test.failure.ignore=true -Dbrowser=chrome -Dsurefire.suiteXmlFiles=src/test/resources/testng-smoce.xml clean test
             }
 
          post {
