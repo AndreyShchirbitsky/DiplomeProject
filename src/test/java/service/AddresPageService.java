@@ -29,14 +29,13 @@ public class AddresPageService extends BasePage {
                 .zipInput(addres)
                 .cityInput(addres)
                 .homePhoneInput(addres)
-                .countryInput(addres)
+                .countryInput()
                 .stateInput(addres)
                 .addressTitleInput(addres)
                 .clickSaveButton();
 
     }
     public void deleteAddress() {
-        loginPageService.login();
         addresPage.openPage(ADDRESSES_PAGE_URL)
                 .clickDeleteAddressButton();
         alert = DriverSingleTon.getDriver().switchTo().alert();
@@ -54,7 +53,7 @@ public class AddresPageService extends BasePage {
                 .zipInput(addres)
                 .cityInput(addres)
                 .homePhoneInput(addres)
-                .countryInput(addres)
+                .countryInput()
                 .stateInput(addres)
                 .clickSaveButton();
 

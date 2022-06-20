@@ -6,6 +6,7 @@ import driver.DriverSingleTon;
 import io.qameta.allure.Step;
 import lombok.extern.log4j.Log4j2;
 import model.Addres;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -85,9 +86,10 @@ public class AddresPage extends BasePage{
     }
 
     @Step("Enter a country")
-    public AddresPage countryInput(Addres addres) {
-        log.info("Enter a country");
-        new Choose("uniform-id_country").selectValue(addres.getCountry());
+    public AddresPage countryInput() {
+        log.info("Choosing a country");
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//select[@id='id_country']//parent::div"))).click();
+        driver.findElement(By.xpath("//select[@id='id_country']//option[@value='216']")).click();
         return this;
     }
 
